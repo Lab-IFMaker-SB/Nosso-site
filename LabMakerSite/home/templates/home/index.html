@@ -1,8 +1,12 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}Home{%  endblock %}
 
 {% block content %}
-<h1>Venha conhecer o Lab IF Maker de São Borja!</h1>
+<div class="welcome">
+    <img class="welcome-img" width="1080" height="810" src="{% static 'img/boas vindas 1080px.jpg' %}" alt="">
+    <h1>Venha conhecer o Lab IF Maker de São Borja!</h1>
+</div>
+
 
 {% endblock %}
