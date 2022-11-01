@@ -37,6 +37,11 @@
     display: inline-block;
 }
 
+/*main*/
+main h1, h2{
+    text-align: center;
+}
+
 /* footer */
 footer {
     background-color: #333;
